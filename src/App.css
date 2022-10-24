@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  color: #777;
+  box-sizing: border-box;
+  background-color: #131518;
+}
+
+/* Below 420px */
+@media (max-width: 26.25em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* Below 375px */
+@media (max-width: 23.4375em) {
+  html {
+    font-size: 50%;
+  }
+}
